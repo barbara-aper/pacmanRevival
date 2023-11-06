@@ -148,4 +148,5 @@ void DesalocaFantasmas(tFantasma **fantasmas)
     {
         DesalocaFantasma(fantasmas[i]);
     }
+    free(fantasmas);
 }
